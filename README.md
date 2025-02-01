@@ -37,10 +37,6 @@
 - **Vehicle Selection:** Assigns the best-suited vehicle based on weight, capacity, and distance constraints.
 - **Time & Capacity Optimization:** Balances trip duration and load capacity to maximize resource utilization.
 
-## ⚠️ Limitations
-- **Median Imputation for Missing Values:** Assumes a normal distribution, which might not always be valid.
-- **80:20 Split Without Stratification:** Can lead to an imbalanced test dataset.
-- **No Outlier Treatment:** Extreme values may skew model performance.
 
 ## 📚 References
 - [A comprehensive study on optimizing Delivery Routes through Generative AI](https://www.researchgate.net/publication/384467526_A_comprehensive_study_on_optimizing_Delivery_Routes_through_Generative_AI_using_Real-Time_Traffic_and_Environmental_Data)
@@ -55,20 +51,4 @@
 - Radadiya Hetvi Hasmukhbhai
 - Patel Pushpak Pareshbhai
 - Mungra Heet Vimalbhai
-
-## 🛠 Installation & Usage
-```bash
-# Clone the repository
-git clone https://github.com/your-repo-url.git
-cd SmartRoute-Optimizer
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the optimization script
-python optimizer.py
-```
-
-## 📬 Contact
-For any queries, reach out to the team at [your-email@example.com].
 
